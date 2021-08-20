@@ -1,0 +1,131 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body, a {
+    background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+img {
+    width: 34%;
+    margin-bottom: 30px;
+}
+h2 {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+p {
+    color: rgba(234, 240, 246, 0.8);
+    opacity: 0.7;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+}
+a {
+    
+    padding: 23px 60px;
+}
+main {
+    padding: 20px;
+}
+
+  .row {
+    padding: 30px;
+  }
+
+
+.box1 {
+    border-top-left-radius: 2.5%;
+    border-top-right-radius: 2.5%;
+    padding: 124px;
+    background-color: hsl(31, 77%, 52%);
+}
+.box2 {
+    padding: 124px;
+    background-color: hsl(184, 100%, 22%);
+}
+.box3 {
+    border-bottom-left-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    padding: 124px;
+    background-color:hsl(179, 100%, 13%);
+}
+
+.row a {
+    width: 70%;
+    background-color: white;
+    border-radius:5em;
+    text-decoration: none;
+}
+.box1 a {
+    color: hsl(31, 77%, 52%);
+}
+.box2 a {
+    color: hsl(184, 100%, 22%);
+}
+.box3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+
+a:hover, a:active {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+@media (min-width: 992px) {
+    
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        max-width: 900px;
+        margin: auto;
+    }
+    body {
+        font-size: 15px;
+    }
+    img {
+        width: 40%;
+    }
+    
+    
+    h2 {
+        font-size: 36px;
+    }
+    .box1 {
+        border-top-left-radius: 2.5%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 2.5%;
+        float: left;
+        width: 21.33%;
+        padding: 30px;
+    }
+    .box2 {
+        float: left;
+        width: 21.33%;
+        padding: 30px;
+    }
+    .box3 {
+        border-top-right-radius: 2.5%;
+        border-bottom-right-radius: 2.5%;
+        border-bottom-left-radius: 0%;
+        float: left;
+        width: 21.33%;
+        padding: 30px;
+    }
+    a:link, a:visited {
+   
+        padding: 14px 25px;
+    }
+    body, a {
+        font-size: 15px;
+    }
+  }
